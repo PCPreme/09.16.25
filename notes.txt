@@ -1,0 +1,37 @@
+Class notes below:
+
+Class 7 (09/23/2025) [I know I saved this under 09/16/25; I was in too deep, apologies in advance].
+
+Topic: Command Line, File Management, and GitHub
+
+Objective: Upload sample files from your computer to a GitHub repo, using Git, Bash (Windows), or Terminal (Mac/Linux).
+
+Notes:
+1. For Windows, type "Git Bash" in the search. It is used to work directly with the computer. 
+
+2. Type (pwd) [print working directory] if Theo asks where your pwd is. Tells you where you are on your computer/file.
+
+3. (ls) gives you an overview/view of all the files.
+
+4. Use (cd) to change your directory or files. 
+
+5. Use (clear) to make your screen clear 
+
+6. cd .. goes back to your original files
+
+7. To start checking files, the best practice is:
+> pwd (in the beginning there was print working directory shows where you are starting from) > ls (to list what is currently in your overview files) > cd (pick which file you want to go into from what you saw earlier in [ls]) > cd (pick your files then repeat process of [ls] list files, [cd] change directory, [ls] check again, [cd] change and pick if needed. 
+
+8. to create a file type (touch)
+
+9. to remove a file type (rm)
+
+10. Save your new repository CLI:
+
+echo "# 09.16.25" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PCPreme/09.16.25.git
+git push -u origin main
